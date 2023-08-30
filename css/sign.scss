@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.signin_cont{
+    height: 100vh;
+    .button_section{
+        width: 60%;
+        gap: 20px;
+        .signin{
+            background-color: #0e0e0e;
+            color: #fff;
+            transition: transform 0.1s;
+        }
+        .signin:hover{
+            transform: scale(1.06);
+        }
+        .signup{
+            
+            transition: transform 0.1s;
+        }
+        .signup:hover{
+            transform: scale(1.06);
+        }
+        button{
+            width: 120px;
+            height: 45px;
+            border: none;
+            outline: none;
+            border-radius: 7px;
+            text-align: center;
+        }
+    }
+    
+}
+
+
+/*Responsive*/
+
+
+@media (max-width:999px){
+    .button_section{
+        flex-direction: column;
+    }
+
+}

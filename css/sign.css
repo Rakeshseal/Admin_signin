@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signin_cont {
+  height: 100vh;
+}
+.signin_cont .button_section {
+  width: 60%;
+  gap: 20px;
+}
+.signin_cont .button_section .signin {
+  background-color: #0e0e0e;
+  color: #fff;
+  transition: transform 0.1s;
+}
+.signin_cont .button_section .signin:hover {
+  transform: scale(1.06);
+}
+.signin_cont .button_section .signup {
+  transition: transform 0.1s;
+}
+.signin_cont .button_section .signup:hover {
+  transform: scale(1.06);
+}
+.signin_cont .button_section button {
+  width: 120px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  text-align: center;
+}
+
+/*Responsive*/
+@media (max-width: 999px) {
+  .button_section {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=sign.css.map */
